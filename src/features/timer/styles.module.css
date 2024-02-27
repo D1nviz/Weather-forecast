@@ -1,0 +1,25 @@
+.container_timer {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: rgba(61, 57, 57, 0.562);
+  backdrop-filter: blur(7px);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.timer_element {
+  text-align: center;
+}
+
+.timer_element span:first-child {
+  display: block;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.timer_element span:last-child {
+  display: block;
+  font-size: 14px;
+  color: #ffffff;
+}

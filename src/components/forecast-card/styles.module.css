@@ -1,0 +1,19 @@
+.container {
+  padding-inline: 10px;
+  padding-block: 10px;
+  min-width: 150px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+  background-color: #ffffff;
+  transition: all 0.2s ease;
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+
+  }
+}
